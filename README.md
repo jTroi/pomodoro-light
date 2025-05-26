@@ -11,3 +11,16 @@ The application of the pomodoro technique
 The Pomodoro principle is a time management technique developed by Francesco Cirillo, based on alternating work and rest at regular intervals. 
 
 The method is based on the principle of concentrating on work for 25 minutes (one "tomato"), followed by a 5-minute break, and this cycle is repeated 4 times, followed by a longer break (20-30 minutes).
+
+## ✅ Приложение имеет следующий функционал:
+* Показывает Pomodoro таймер
+* ⚙️ Адаптивная тема (светлая/тёмная)
+* 🖥️ Системный трей
+
+
+## 🛠️ Как собрать .exe из этого кода:
+```
+    pip install pillow pystray pyinstaller
+
+    pyinstaller --onefile --windowed --add-data "tomato.png;." pomodoro_tray.py
+```
