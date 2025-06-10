@@ -22,5 +22,5 @@ The method is based on the principle of concentrating on work for 25 minutes (on
 ```
     pip install pillow pystray pyinstaller
 
-    pyinstaller --onefile --windowed --add-data "tomato.png;." pomodoro_tray.py
+    pyinstaller --onefile --windowed pomodoro_tray.py
 ```
